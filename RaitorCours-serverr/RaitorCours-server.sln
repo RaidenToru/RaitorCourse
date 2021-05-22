@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaitorCours-server", "RaitorCours-server\RaitorCours-server.csproj", "{B15D162B-AB5A-4938-AF51-950982C88B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B15D162B-AB5A-4938-AF51-950982C88B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15D162B-AB5A-4938-AF51-950982C88B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15D162B-AB5A-4938-AF51-950982C88B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15D162B-AB5A-4938-AF51-950982C88B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9919A3E3-281D-4C4C-BCD6-322FDB2FC6CB}
+	EndGlobalSection
+EndGlobal

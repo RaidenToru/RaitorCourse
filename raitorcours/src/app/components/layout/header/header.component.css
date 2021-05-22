@@ -1,0 +1,82 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.logo__rc {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo__r {
+  font-family: Candara, serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFCCBC;
+}
+
+.logo__aitor {
+  font-family: Candara, serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #FFCCBC;
+}
+
+.logo__stick {
+  font-family: Candara, serif;
+  text-align: center;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #FFCCBC;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.logo__c {
+  font-family: Candara, serif;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFCCBC;
+}
+
+.logo__ours {
+  font-family: Candara, serif;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #FFCCBC;
+}
+
+.logo__raitorcourse {
+  font-family: Candara, serif;
+  color: #FFCCBC;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.login {
+  color: #FFCCBC;
+  text-decoration-line: none;
+  margin-right: 15px;
+}
+
+.login:hover {
+  color: #ffffff;
+}
+
+.register {
+  color: #FFCCBC;
+  text-decoration-line: none;
+  margin-right: 15px;
+}
+
+.register:hover {
+  color: #ffffff;
+}

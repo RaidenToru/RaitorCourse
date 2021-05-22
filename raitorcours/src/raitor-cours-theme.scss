@@ -1,0 +1,24 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+  $raitor-cours-primary: mat-palette($mat-deep-orange, A400, A200, A100);
+$raitor-cours-accent: mat-palette($mat-blue-gray, 700, 500, 900);
+
+$raitor-cours-warn: mat-palette($mat-red, 800, 400, 900);
+
+$raitor-cours-theme: mat-light-theme((
+  color: (
+    primary:$raitor-cours-primary,
+    accent: $raitor-cours-accent,
+    warn: $raitor-cours-warn,
+  )
+));
+
+@media (prefers-color-scheme: dark) {
+  @include angular-material-theme($raitor-cours-theme);
+
+  body {
+    background-color: #fff1e1;
+  }
+}

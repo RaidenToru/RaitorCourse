@@ -1,0 +1,70 @@
+<app-header></app-header>
+
+<div class="container">
+  <div class="content">
+    <mat-card class="card">
+      <mat-card-content>
+        <div class="title">
+          <h1>Sign Up</h1>
+        </div>
+        <form class="form">
+          <div class="input">
+            <div class="field">
+              <mat-form-field appearance="outline">
+                <mat-label>Full name</mat-label>
+                <label>
+                  <input matInput [formControl]="email" class="input-field">
+                </label>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="input">
+            <div class="field">
+              <mat-form-field appearance="outline">
+                <mat-label>Email</mat-label>
+                <label>
+                  <input matInput [formControl]="email" class="input-field">
+                </label>
+                <mat-error *ngIf="email.invalid"></mat-error>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="input">
+            <div class="field">
+              <mat-form-field appearance="outline">
+                <mat-label>Password</mat-label>
+                <label>
+                  <input matInput type="password" [type]="hide ? 'password' : 'text'" [formControl]="password" class="input-field">
+                </label>
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                        [attr.aria-pressed]="hide">
+                  <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="input">
+            <div class="field">
+              <mat-form-field appearance="outline">
+                <mat-label>Re-Password</mat-label>
+                <label>
+                  <input matInput type="password" [type]="hide ? 'password' : 'text'" [formControl]="password" class="input-field">
+                </label>
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                        [attr.aria-pressed]="hide">
+                  <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="button">
+            <button mat-raised-button color="primary" >REGISTER</button>
+          </div>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+
+<app-footer></app-footer>

@@ -1,0 +1,72 @@
+:host{
+  display: grid;
+  height: 100%;
+  grid-auto-rows: auto 1fr;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.content {
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card {
+padding: 20px 40px 20px 40px;
+}
+
+.title {
+  text-align: center;
+  color: #FF3D00;
+}
+
+.form {
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+}
+
+.input-field {
+  font-size: 16px;
+}
+
+.field {
+  width: 100%;
+}
+
+.field mat-form-field {
+  width: 100%;
+}
+
+.button {
+  margin-top: 20px;
+  text-align: center;
+}
