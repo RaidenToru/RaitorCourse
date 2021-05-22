@@ -13,7 +13,7 @@ namespace RaitorCours_server.Models
         public int WeekEnum { get; set; }
         public Course Course { get; set; }
         public ICollection<AssessmentTask> AssessmentTasks { get; set; }
-        public ICollection<Task> Tasks { get; set; }
+        public ICollection<CourseTask> CourseTasks { get; set; }
     }
 
 }

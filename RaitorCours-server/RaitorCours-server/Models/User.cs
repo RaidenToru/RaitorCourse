@@ -1,4 +1,5 @@
-﻿using System;
+﻿using raitorcours_server.Models;
+using System;
 using System.Collections.Generic;
 
 namespace RaitorCours_server.Models
@@ -12,6 +13,7 @@ namespace RaitorCours_server.Models
         public string Password { get; set; }
         public string Bio { get; set; }
         public DateTime BirthDate { get; set; }
+        public Role Role { get; set; }
         public ICollection<Answer> Answers { get; set; }
         public ICollection<CourseUser> CourseOfUsers { get; set; }
         public ICollection<Course> Courses { get; set; }

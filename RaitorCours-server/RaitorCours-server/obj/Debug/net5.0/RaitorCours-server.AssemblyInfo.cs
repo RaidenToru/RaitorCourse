@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RaitorCours-server")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("raitorcours-server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("RaitorCours-server")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RaitorCours-server")]
+[assembly: System.Reflection.AssemblyProductAttribute("raitorcours-server")]
+[assembly: System.Reflection.AssemblyTitleAttribute("raitorcours-server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

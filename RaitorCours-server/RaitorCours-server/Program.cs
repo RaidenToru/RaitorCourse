@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RaitorCours_server
+namespace raitorcours_server
 {
     public class Program
     {
