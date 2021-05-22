@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j+CKApqzflwQNPiZq/w/BqvOuc5aZgvodk+e9Vk1f8tN8QNmMzUUJwU4mBIUfhnHjjgjsh2XGI9tbvB95ASu3g==",
+  "dgSpecHash": "gIP0J3uOGytNKJZy0RhuYTmwwtZODA3QYs0FHXBmB8iiIt8CvRXmWVSm3h4+c4kupApcdyykSwMIhRGt4Znv7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raiden\\RaitorCours\\RaitorCours-server\\RaitorCours-server\\RaitorCours-server.csproj",
+  "projectFilePath": "C:\\Users\\Raiden\\RaitorCours\\RaitorCourse\\RaitorCours-server\\RaitorCours-server\\RaitorCours-server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raiden\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Raiden\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

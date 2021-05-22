@@ -7476,11 +7476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raiden\\RaitorCours\\RaitorCours-Server\\RaitorCours-server\\RaitorCours-server.csproj",
+      "projectUniqueName": "C:\\Users\\Raiden\\RaitorCours\\RaitorCourse\\RaitorCours-server\\RaitorCours-server\\RaitorCours-server.csproj",
       "projectName": "RaitorCours-server",
-      "projectPath": "C:\\Users\\Raiden\\RaitorCours\\RaitorCours-Server\\RaitorCours-server\\RaitorCours-server.csproj",
+      "projectPath": "C:\\Users\\Raiden\\RaitorCours\\RaitorCourse\\RaitorCours-server\\RaitorCours-server\\RaitorCours-server.csproj",
       "packagesPath": "C:\\Users\\Raiden\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raiden\\RaitorCours\\RaitorCours-Server\\RaitorCours-server\\obj\\",
+      "outputPath": "C:\\Users\\Raiden\\RaitorCours\\RaitorCourse\\RaitorCours-server\\RaitorCours-server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
